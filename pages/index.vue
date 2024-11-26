@@ -1,11 +1,10 @@
 <template>
-    <div class="antialiased bg-white dark:bg-black dark:text-white flex flex-col items-center justify-center min-h-screen place-content-center sm:text-base text-black text-sm">
-
-        <UContainer class="w-full mt-8 p-4 border border-gray-200 rounded-lg shadow-sm bg-white">
-        <div class="text-gray-600 flex items-center gap-3">
-            <UIcon name="i-heroicons-home" class="w-5 h-5" /> Hello World
-        </div>
-    </UContainer>
+    <div class="antialiased flex flex-col items-center justify-start min-h-screen place-content-center p-6 sm:text-base text-sm text-black">
+        <UContainer class="w-full p-4 border border-gray-200 rounded-lg shadow-sm bg-white">
+            <div class="text-gray-600 flex items-center gap-3">
+                <UIcon name="i-heroicons-home" class="w-5 h-5" /> Hello World
+            </div>
+        </UContainer>
     </div>
 </template>
 
@@ -18,5 +17,4 @@ useHead({
 </script>
 
 <style scoped>
-
 </style>
